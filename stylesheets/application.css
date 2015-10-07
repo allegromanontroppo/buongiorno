@@ -5,20 +5,20 @@ main {
 @-webkit-keyframes product-image-slideshow {
   0% {
     background-position: center, 400px 0, 400px 0, 400px 0; }
-  33% {
+  25% {
     background-position: 400px 0, center, 400px 0; }
-  66% {
+  50% {
     background-position: 400px 0, 400px 0, center, 400px 0; }
-  100% {
+  75% {
     background-position: 400px 0, 400px 0, 400px 0, center; } }
 @keyframes product-image-slideshow {
   0% {
     background-position: center, 400px 0, 400px 0, 400px 0; }
-  33% {
+  25% {
     background-position: 400px 0, center, 400px 0; }
-  66% {
+  50% {
     background-position: 400px 0, 400px 0, center, 400px 0; }
-  100% {
+  75% {
     background-position: 400px 0, 400px 0, 400px 0, center; } }
 /* line 34, /Users/markholland/Sites/buongiorno/source/stylesheets/application.css.scss */
 .product {
