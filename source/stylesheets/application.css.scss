@@ -1,0 +1,51 @@
+main{
+  margin-top: 40px;
+}
+
+@-webkit-keyframes product-image-slideshow{
+  0%{
+    background-position: center, 400px 0, 400px 0, 400px 0;
+  }
+  33%{
+    background-position: 400px 0, center, 400px 0;
+  }
+  66%{
+    background-position: 400px 0, 400px 0, center, 400px 0;
+  }
+  100%{
+    background-position: 400px 0, 400px 0, 400px 0, center;
+  }
+}
+@keyframes product-image-slideshow{
+  0%{
+    background-position: center, 400px 0, 400px 0, 400px 0;
+  }
+  33%{
+    background-position: 400px 0, center, 400px 0;
+  }
+  66%{
+    background-position: 400px 0, 400px 0, center, 400px 0;
+  }
+  100%{
+    background-position: 400px 0, 400px 0, 400px 0, center;
+  }
+}
+
+.product{
+  padding-bottom: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  -webkit-animation-name: product-image-slideshow;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: steps(1);
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-play-state: paused;
+  animation: product-image-slideshow 2s steps(1) infinite paused;
+  
+  &:hover{
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+  }
+}
