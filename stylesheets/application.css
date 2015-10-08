@@ -21,7 +21,7 @@ main {
   75% {
     background-position: 400px 0, 400px 0, 400px 0, center; } }
 /* line 34, /Users/markholland/Sites/buongiorno/source/stylesheets/application.css.scss */
-.product {
+.product .thumbnail {
   padding-bottom: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,6 +33,6 @@ main {
   -webkit-animation-play-state: paused;
   animation: product-image-slideshow 2s steps(1) infinite paused; }
   /* line 47, /Users/markholland/Sites/buongiorno/source/stylesheets/application.css.scss */
-  .product:hover {
+  .product .thumbnail:hover {
     -webkit-animation-play-state: running;
     animation-play-state: running; }
