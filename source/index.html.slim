@@ -6,6 +6,6 @@ main
   .container
     .row
       - data.products.each do |product|
-        .col-xs-4= partial '/partials/product', locals: { product: product }
+        .col-xs-4= partial '/partials/product', :locals => { :product => product }
       
     

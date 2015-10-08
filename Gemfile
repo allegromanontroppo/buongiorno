@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem 'slim'
 
-gem "middleman", "~>3.3.12"
+gem "middleman", "~>3.4.0"
 
 gem 'middleman-gh-pages'
 
