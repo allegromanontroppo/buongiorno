@@ -25,14 +25,11 @@ main {
   padding-bottom: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  -webkit-animation-name: product-image-slideshow;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-timing-function: steps(1);
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-play-state: paused;
-  animation: product-image-slideshow 2s steps(1) infinite paused; }
-  /* line 47, /Users/markholland/Sites/buongiorno/source/stylesheets/application.css.scss */
+  background-position: center; }
+  /* line 40, /Users/markholland/Sites/buongiorno/source/stylesheets/application.css.scss */
   .product .thumbnail:hover {
-    -webkit-animation-play-state: running;
-    animation-play-state: running; }
+    -webkit-animation-name: product-image-slideshow;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: steps(1);
+    -webkit-animation-iteration-count: infinite;
+    animation: product-image-slideshow 2s steps(1) infinite; }
