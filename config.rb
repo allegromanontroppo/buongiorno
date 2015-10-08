@@ -43,8 +43,8 @@
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def italians_as_background_images
-    data.italians.map do |url|
+  def urls_as_background_images(urls)
+    urls.map do |url|
       "url('#{ url }')"
     end.join(', ')
   end
