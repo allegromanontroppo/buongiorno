@@ -7,7 +7,7 @@ main{
     background-position: center, 400px 0, 400px 0, 400px 0;
   }
   25%{
-    background-position: 400px 0, center, 400px 0;
+    background-position: 400px 0, center, 400px 0, 400px 0;
   }
   50%{
     background-position: 400px 0, 400px 0, center, 400px 0;
@@ -21,7 +21,7 @@ main{
     background-position: center, 400px 0, 400px 0, 400px 0;
   }
   25%{
-    background-position: 400px 0, center, 400px 0;
+    background-position: 400px 0, center, 400px 0, 400px 0;
   }
   50%{
     background-position: 400px 0, 400px 0, center, 400px 0;
@@ -36,7 +36,7 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+
   &:hover{
     -webkit-animation-name: product-image-slideshow;
     -webkit-animation-duration: 2s;
