@@ -1,5 +1,5 @@
 -
-  title: British
+  title: One
   images:
     - http://placehold.it/250/fff/444?text=one
     - http://placehold.it/250/aaa/000?text=two
@@ -7,7 +7,7 @@
     - http://placehold.it/250/222/000?text=four
 
 -
-  title: Italians
+  title: Two
   images:
     - http://placehold.it/250/fff/444?text=one
     - http://placehold.it/250/aaa/000?text=two
@@ -15,7 +15,7 @@
     - http://placehold.it/250/222/000?text=four
 
 -
-  title: Germans
+  title: Three
   images:
     - http://placehold.it/250/fff/444?text=one
     - http://placehold.it/250/aaa/000?text=two
