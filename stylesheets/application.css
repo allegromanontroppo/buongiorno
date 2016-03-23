@@ -1,4 +1,4 @@
-/* line 1, /Users/markholland/Sites/buongiorno/source/stylesheets/application.css.scss */
+/* line 1, /Users/markholland/Projects/buongiorno/source/stylesheets/application.css.scss */
 main {
   margin-top: 40px; }
 
@@ -6,7 +6,7 @@ main {
   0% {
     background-position: center, 400px 0, 400px 0, 400px 0; }
   25% {
-    background-position: 400px 0, center, 400px 0; }
+    background-position: 400px 0, center, 400px 0, 400px 0; }
   50% {
     background-position: 400px 0, 400px 0, center, 400px 0; }
   75% {
@@ -15,18 +15,18 @@ main {
   0% {
     background-position: center, 400px 0, 400px 0, 400px 0; }
   25% {
-    background-position: 400px 0, center, 400px 0; }
+    background-position: 400px 0, center, 400px 0, 400px 0; }
   50% {
     background-position: 400px 0, 400px 0, center, 400px 0; }
   75% {
     background-position: 400px 0, 400px 0, 400px 0, center; } }
-/* line 34, /Users/markholland/Sites/buongiorno/source/stylesheets/application.css.scss */
+/* line 34, /Users/markholland/Projects/buongiorno/source/stylesheets/application.css.scss */
 .product .thumbnail {
   padding-bottom: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  /* line 40, /Users/markholland/Sites/buongiorno/source/stylesheets/application.css.scss */
+  /* line 40, /Users/markholland/Projects/buongiorno/source/stylesheets/application.css.scss */
   .product .thumbnail:hover {
     -webkit-animation-name: product-image-slideshow;
     -webkit-animation-duration: 2s;
